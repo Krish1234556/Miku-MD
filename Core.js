@@ -1375,39 +1375,7 @@ return list[Math.floor(list.length * Math.random())]
 
 //Some special chat replies
 	
- let smallinput = budy.toLowerCase()
-    if (smallinput.includes('')) {
-      reply (`Hello *${pushname}*, I am *${BotName}*.`);
-    } 
-
-    if( smallinput.includes('') || smallinput.includes('konochiwa') || smallinput.includes('konichiba') || smallinput.includes('salute')){
-      reply (`Konichiwa *${pushname}*, I am *${BotName}*. `);
-    }
-   
-    if (smallinput=='') {
-      reply (`*${pushname}*, I am *${BotName}*, a WhatsApp ai Modified by *Ɲᴇꪎꪎᴇʀ* and currently being hosted by *${OwnerName}*.  type  *${prefix}help* to get my full command list.`);
-    }
-
-    if (smallinput=='lol') {
-        reply (`*XD*`)
-    }
-
-    if (smallinput=='op') {
-        reply (`Hehe`)
-    }
-
-    if (smallinput.includes('') || smallinput.includes('ohayo')) {
-      reply (`Good morning to you too *${pushname}* `);
-    }
-
-    if (smallinput.includes('')) {
-      reply (`Good night to you too *${pushname}* `);
-    }
-
-    if (smallinput.includes('')|| smallinput.includes('') || smallinput.includes('')) {
-      reply (` *${pushname}* `);
-    }      
-
+ 
 switch(command) {
 	
     case 'sc': case 'script': case 'sourcecode': {
