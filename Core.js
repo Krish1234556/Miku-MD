@@ -1376,16 +1376,16 @@ return list[Math.floor(list.length * Math.random())]
 //Some special chat replies
 	
  let smallinput = budy.toLowerCase()
-    if (smallinput.includes('hello')) {
-      reply (`Hello *${pushname}*, I am *${BotName}*. How can i help you?`);
+    if (smallinput.includes('')) {
+      reply (`Hello *${pushname}*, I am *${BotName}*.`);
     } 
 
-    if( smallinput.includes('konichiwa') || smallinput.includes('konochiwa') || smallinput.includes('konichiba') || smallinput.includes('salute')){
-      reply (`Konichiwa *${pushname}*, I am *${BotName}*. How can i help you?`);
+    if( smallinput.includes('') || smallinput.includes('konochiwa') || smallinput.includes('konichiba') || smallinput.includes('salute')){
+      reply (`Konichiwa *${pushname}*, I am *${BotName}*. `);
     }
    
-    if (smallinput=='bot') {
-      reply (`Hello *${pushname}*, I am *${BotName}*, a WhatsApp bot Modified by *Ɲᴇꪎꪎᴇʀ* and currently being hosted by *${OwnerName}*.  type  *${prefix}help* to get my full command list.`);
+    if (smallinput=='') {
+      reply (`*${pushname}*, I am *${BotName}*, a WhatsApp ai Modified by *Ɲᴇꪎꪎᴇʀ* and currently being hosted by *${OwnerName}*.  type  *${prefix}help* to get my full command list.`);
     }
 
     if (smallinput=='lol') {
@@ -1396,16 +1396,16 @@ return list[Math.floor(list.length * Math.random())]
         reply (`Hehe`)
     }
 
-    if (smallinput.includes('good morning') || smallinput.includes('ohayo')) {
-      reply (`Good morning to you too *${pushname}* ☺️. Have a great day 😇.`);
+    if (smallinput.includes('') || smallinput.includes('ohayo')) {
+      reply (`Good morning to you too *${pushname}* `);
     }
 
-    if (smallinput.includes('good night')) {
-      reply (`Good night to you too *${pushname}* 😇. Sleep well and sweet dreams.`);
+    if (smallinput.includes('')) {
+      reply (`Good night to you too *${pushname}* `);
     }
 
-    if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('thank')) {
-      reply (`Mention not *${pushname}* 😇. I am a bot afterall.`);
+    if (smallinput.includes('')|| smallinput.includes('') || smallinput.includes('')) {
+      reply (` *${pushname}* `);
     }      
 
 switch(command) {
